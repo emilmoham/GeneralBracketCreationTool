@@ -26,6 +26,8 @@ public class Bracket {
         //Calculate Rounds needed to create bracket
         num_rounds = (int)Math.ceil(Math.log(competitors.size())/Math.log(2));
         
+        rounds = new ArrayList<Round>();
+        
         for(int i = 0; i < num_rounds; i++){
             rounds.add(new Round(i));
         }

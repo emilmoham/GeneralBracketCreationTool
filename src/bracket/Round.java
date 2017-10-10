@@ -23,7 +23,7 @@ public class Round {
     }
     
     public void seed(){
-        AbstractQueue<Competitor> competitors_q = new AbstractQueue<Competitor>();
+        /*AbstractQueue<Competitor> competitors_q = new AbstractQueue<Competitor>();
         Competitor current;
         
         //Error Handling
@@ -39,6 +39,8 @@ public class Round {
         //Assign competitors to matches
         while((current = competitors_q.poll()) != null){
             //TODO
-        }
+        }*/
+        
+        System.out.println("Seeding...");
     }
 }
